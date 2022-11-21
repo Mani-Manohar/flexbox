@@ -155,7 +155,7 @@ ul{
 {
     .nav{
         position: fixed;
-        /* left:-100%; */
+        left:-100%;
         top:60px;
         flex-direction: column;
         background-color: white;
@@ -168,7 +168,7 @@ ul{
         color: #3474e6;
     }
 
-    /* When hamburger menu is clicked this class is added to ul-nav so that left will become '0' from "-100%"*/
+    /* When hamburger menu is clicked this class is added to ul so that left will become '0' from "-100%"*/
     .show{
         left:0;
     }
