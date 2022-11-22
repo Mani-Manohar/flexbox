@@ -13,8 +13,7 @@ document.addEventListener("click", function (e) {
     // console.log(e.target.classList[1]);
 
     if(e.target.classList[1] !== "icon") {
-        nav.classList.toggle("show");
-        hamBgr.classList.toggle("icon");
-        // console.log("YES");
+        nav.classList.remove("show");
+        hamBgr.classList.remove("icon");
     }
 });
